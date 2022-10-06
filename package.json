@@ -1,28 +1,27 @@
 {
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "cookie-parser": "^1.4.6",
-    "debug": "^4.3.4",
-    "express-generator": "^4.14.1",
-    "jade": "^1.11.0",
-    "morgan": "^1.10.0",
-    "serve-favicon": "^2.5.0"
-  },
   "name": "userloginsystem",
-  "description": "User Login",
-  "version": "1.0.0",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FotiniBatzoni/UserLoginSystem.git"
-  },
-  "author": "Fotini Batzoni",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FotiniBatzoni/UserLoginSystem/issues"
-  },
-  "homepage": "https://github.com/FotiniBatzoni/UserLoginSystem#readme"
+  "dependencies": {
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-messages": "*",
+    "express-session": "^1.17.3",
+    "express-validator": "*",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "~1.9.1",
+    "multer": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "serve-favicon": "*"
+  }
 }
